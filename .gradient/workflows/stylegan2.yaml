@@ -34,7 +34,6 @@ jobs:
         pip install requests==2.22.0
         pip install Pillow==6.2.1
         cd /inputs/stylegan2
-        
         curl -fsSL https://code-server.dev/install.sh | sh
         code-server
         cd ~/.config/code-server
